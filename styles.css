@@ -1,8 +1,10 @@
 #top_ribbin{
+    border-radius: 20px;
     background-color: rgb(0, 7, 112);
     color: aliceblue;
     align-content: center;
     text-align: center;
+    padding: 5px;
 }
 #image_container{
     max-width: fit-content;
@@ -32,4 +34,5 @@ button{
     opacity: 99%;
     margin-left:45%;
     top: 50%;
+    border-radius: 8px;
 }
