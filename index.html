@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Rock-Paper-scissors</title>
-</head>
-<body>
-    <h1 id="top_ribbin">
-        Rock-Paper-Scissors
-    </h1>
-    <div id="image_container">
-        <a href=""><img class="image" src="images/paper.png" alt="paper"></a>
-        <a href=""><img class="image" src="images/stone.png" alt="stone"></a>
-        <a href=""><img class="image" src="images/scissors.png" alt="scissors"></a>
-        <h2>0</h2>
-        <h2>You</h2>
-        <h2>0</h2>
-        <h2>AI</h2>
-        <button>Try More</button>
-        
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="./images/stone.png" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="./images/paper.png" />
+      </div>
+      <div class="choice" id="scissors">
+        <img src="./images/scissors.png" />
+      </div>
     </div>
-    <div id="text">
-        
+
+    <div class="score-board">
+      <div class="score">
+        <p id="user-score">0</p>
+        <p>You</p>
+      </div>
+      <div class="score">
+        <p id="comp-score">0</p>
+        <p>Comp</p>
+      </div>
     </div>
-</body>
+
+    <div class="msg-container">
+      <p id="msg">Play your move</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
